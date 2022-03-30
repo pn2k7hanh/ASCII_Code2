@@ -8,9 +8,9 @@ Widget::Widget(QWidget *parent) :
     isTo=true;
 //    setFixedSize(400,300);
     ui->setupUi(this);
-    connect(ui->convertButton,SIGNAL(clicked()),this,SLOT(convert()));
-    connect(ui->inputTextBox,SIGNAL(editingFinished()),this,SLOT(convert()));
-    connect(ui->changeButton,SIGNAL(clicked()),this,SLOT(changeType()));
+//    connect(ui->convertButton,SIGNAL(clicked()),this,SLOT(convert()));
+//    connect(ui->inputTextBox,SIGNAL(editingFinished()),this,SLOT(convert()));
+//    connect(ui->changeButton,SIGNAL(clicked()),this,SLOT(changeType()));
 }
 void Widget::changeType()
 {

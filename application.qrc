@@ -1,6 +1,7 @@
 <RCC>
-    <qresource prefix="/">
-        <file>images/2arrow.svg</file>
-        <file>images/convert.svg</file>
+    <qresource prefix="/images">
+        <file alias="2arrow">images/2arrow.png</file>
+        <file alias="convert">images/convert.png</file>
+        <file alias="delete">images/delete.png</file>
     </qresource>
 </RCC>
